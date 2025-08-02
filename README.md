@@ -1,14 +1,19 @@
-# Welcome to your CDK TypeScript project
+# CDK with Amazon Q Developer CLI Hands-on
 
-This is a blank project for CDK development with TypeScript.
+このリポジトリは、Amazon Q Developer CLI を使用して CDK スタックを構築するハンズオンです。
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## 完成イメージ
 
-## Useful commands
+<img width="584" height="491" alt="Image" src="https://github.com/user-attachments/assets/44d373e2-bfac-48f1-ab4c-743cee0cb053" />
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+## 手順
+
+1. 現在の CDK 構成をドキュメント化する
+   - [プロンプト](./.amazonq/prompts/1_describe_current_stack.md)
+
+2. 現在の CDK 構成に API Gateway を追加してデプロイする
+    - [プロンプト](./.amazonq/prompts/2_add_api_gateway.md)
+    - 確認コマンド: `curl -X GET "${API Endpoint URL}"`
+
+3. ユニットテストを追加する
+    - [プロンプト](./.amazonq/prompts/3_add_tests.md)
