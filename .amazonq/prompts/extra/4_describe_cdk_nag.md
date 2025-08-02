@@ -1,0 +1,1 @@
+AWS CDK MCP Server を使って CDK Nag について `/docs` ディレクトリに出力して
