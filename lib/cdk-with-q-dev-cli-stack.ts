@@ -17,7 +17,7 @@ export class CdkWithQDevCliStack extends cdk.Stack {
     });
 
     const func = new NodejsFunction(this, "Function", {
-      entry: "lib/hello-world.ts",
+      entry: "lib/handler.ts",
       runtime: Runtime.NODEJS_18_X,
       environment: {
        ITEM_TABLE_NAME: itemTable.tableName,
