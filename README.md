@@ -16,8 +16,8 @@
    - ↑ 適宜利用するプロファイル名を変更してください。(環境変数による設定でも可)
 
 3. 現在の CDK 構成に API Gateway を追加してデプロイする
-    - [プロンプト](./.amazonq/prompts/2_add_api_gateway.md)
-    - 確認コマンド: `curl -X GET "${API Endpoint URL}"`
+   - [プロンプト](./.amazonq/prompts/2_add_api_gateway.md)
+   - 確認コマンド: `curl -X GET "${API Endpoint URL}"`
 
 4. ユニットテストを追加する
-    - [プロンプト](./.amazonq/prompts/3_add_tests.md)
+   - [プロンプト](./.amazonq/prompts/3_add_tests.md)
