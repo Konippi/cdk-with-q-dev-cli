@@ -35,6 +35,12 @@
 
 ## 注意
 
+### [コストについて]
+
 Amazon Q Developer を Free Tier で触っていただくことは無料ですが、<br>
 Amazon Q Developer CLI で AWS リソースをデプロイするため、リソースに応じてコストがかかります。<br>
 料金の見積もりは[AWS Pricing Calculator](https://calculator.aws/#/)より試算可能です。
+
+### [セキュリティについて]
+
+API Gateway に対してセキュリティ防御を考慮していないため、検証後は削除 or 適切なセキュリティ設定を実施してください。
