@@ -1,6 +1,10 @@
 # CDK with Amazon Q Developer CLI Hands-on
 
-このリポジトリは、Amazon Q Developer CLI を使用して CDK スタックを構築するハンズオンです。
+このリポジトリは、Amazon Q Developer CLI を使用して CDK スタックを操作するハンズオンです。
+
+## 前提
+
+- [AWS CDKを始めるハンズオン ─ IaCの第一歩をAWS LambdaとDynamoDBのシンプルな仕組みで学ぶ](https://en-ambi.com/itcontents/entry/2023/04/27/093000/)で作成したスタックを操作します。
 
 ## 完成イメージ
 
@@ -28,3 +32,9 @@
 
 4. ユニットテストを追加する
    - [プロンプト](./.amazonq/prompts/3_add_tests.md)
+
+## 注意
+
+Amazon Q Developer を Free Tier で触っていただくことは無料ですが、<br>
+Amazon Q Developer CLI で AWS リソースをデプロイするため、リソースに応じてコストがかかります。<br>
+料金の見積もりは[AWS Pricing Calculator](https://calculator.aws/#/)より試算可能です。
